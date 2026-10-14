@@ -9,6 +9,7 @@
 - X / Twitter: https://x.com/ahilapillai
 
 ## Services
+- Product and app design (web apps, dashboards, mobile apps)
 - Pitch deck and presentation design (investor decks, deck redesigns, sales enablement decks)
 - Brand identity and visual systems
 - Landing page and marketing website design
@@ -16,6 +17,12 @@
 - Illustration and motion design
 
 ## Selected work
+### Product & app design
+- Saagas.ai: Saagas.ai AI art creator web app with filters, controls and a colour picker
+- Persona Dashboard: Persona advertiser dashboard with impressions chart and campaign table
+- Kami Care Mobile App: Kami Care fall detection mobile app: camera setup, alerts and care circle screens
+- Karncy Fintech App: Karncy fintech app Explore Deals screen for invoice investments
+
 ### Deck slides
 - Pitch Deck: Pitch deck slide with a cost-of-operations bar chart
 - Deck Redesign: Redesigned deck slide for Lyzr, an enterprise AI agent platform
