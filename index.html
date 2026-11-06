@@ -250,7 +250,7 @@ dialog.pop[open]{display:flex;flex-direction:column;animation:fade .2s ease}
 .hello .me{position:relative;flex:0 0 auto;width:clamp(150px,17vw,280px)}
 .hello .me img{width:100%;aspect-ratio:1/1;height:auto;border-radius:50%;object-fit:cover;box-shadow:0 30px 60px -30px rgba(18,18,18,.35)}
 .hello .me .avail{bottom:4px}
-.hello-sub{max-width:16ch;margin:0;font-size:clamp(15px,1.3vw,19px);line-height:1.45;color:var(--mute)}
+.hello-sub{max-width:none;margin:0;font-size:clamp(15px,1.3vw,19px);line-height:1.45;color:var(--mute)}
 .big.r{grid-column:1 / -1;grid-row:2;justify-self:end}
 .scroll-cue{position:absolute;left:50%;bottom:clamp(16px,3vh,32px);transform:translateX(-50%);font-size:13px;font-weight:500;color:var(--mute);text-decoration:none;display:flex;flex-direction:column;align-items:center;gap:6px}
 .scroll-cue::after{content:"";width:1px;height:28px;background:linear-gradient(var(--mute),transparent)}
@@ -359,6 +359,21 @@ footer.sunset .foot-bottom small{color:var(--mute);font-size:13px}
   box-shadow:inset 0 -4px 0 #e8e8e8,0 -3px 0 0 #1c1c1c,0 3px 0 0 #1c1c1c,-3px 0 0 0 #1c1c1c,3px 0 0 0 #1c1c1c;opacity:0;visibility:hidden;transition:opacity .12s steps(2)}
 .mail-tip.on{opacity:1;visibility:visible}
 @media (hover:none){.mail-tip{display:none}}
+
+.hello-sub span{display:block;white-space:nowrap}
+
+/* AI apps: small rounded-square icons with a thin outline */
+.ai-apps{margin-top:28px}
+.ai-apps-line{margin:0 0 12px!important}
+.apps{display:flex;gap:10px;list-style:none;margin:0;padding:0}
+.app{position:relative;display:block;width:40px;height:40px;border-radius:10px;overflow:hidden;box-shadow:0 0 0 .5px #cfcfcf;transition:transform .15s ease,box-shadow .15s ease}
+.app img{width:100%;height:100%;object-fit:cover;display:block}
+.app:hover,.app:focus-visible{transform:translateY(-3px);box-shadow:0 0 0 .5px #b8b8b8,0 8px 18px -10px rgba(18,18,18,.35)}
+.app-name{position:absolute;left:50%;top:calc(100% + 8px);transform:translateX(-50%);white-space:nowrap;font-size:12px;font-weight:500;color:#fff;background:var(--ink);padding:5px 9px;border-radius:6px;opacity:0;pointer-events:none;transition:opacity .15s ease}
+.apps li{position:relative}
+.apps li:hover .app-name,.apps li:focus-within .app-name{opacity:1}
+.app{overflow:visible}.app img{border-radius:10px}
+@media (prefers-reduced-motion:reduce){.app{transition:none}}
 </style>
 </head>
 <body>
@@ -385,7 +400,7 @@ footer.sunset .foot-bottom small{color:var(--mute);font-size:13px}
           <span class="shadow" aria-hidden="true"></span>
         </div>
         <div class="hello-text">
-          <p class="hello-sub">Product &amp; visual designer for startups.</p>
+          <p class="hello-sub"><span>Product &amp; visual designer</span> <span>for startups.</span></p>
           <a class="avail" id="availBtn" href="mailto:ahilapil.26@gmail.com" aria-describedby="mailTip">Available for work</a>
           <span class="mail-tip" id="mailTip" role="tooltip">Mail to ahilapil.26@gmail.com</span>
         </div>
@@ -399,6 +414,10 @@ footer.sunset .foot-bottom small{color:var(--mute);font-size:13px}
     <div class="pitch-copy">
       <h2 id="h-pitch">I&rsquo;m the only designer you need.</h2>
       <p>I&rsquo;ve worked in startups and handled everything: branding, motion, product design, deck design and campaigns.</p>
+      <div class="ai-apps">
+        <p class="ai-apps-line">I&rsquo;ve also built my own AI apps.</p>
+        <ul class="apps"><li><a class="app" href="https://www.leafsort.com/" data-app="leafsort" target="_blank" rel="noopener" aria-label="Open LeafSort"><img src="assets/app-leafsort.webp" alt="" width="96" height="96" loading="lazy"><span class="app-name">LeafSort</span></a></li><li><a class="app" href="https://frontend-six-snowy-38.vercel.app/" data-app="manuscript-formatter" target="_blank" rel="noopener" aria-label="Open Manuscript Formatter"><img src="assets/app-manuscript-formatter.webp" alt="" width="96" height="96" loading="lazy"><span class="app-name">Manuscript Formatter</span></a></li><li><a class="app" href="https://golocal-vietnam.bushy-bowl-8704.chatgpt.site/" data-app="go-local" target="_blank" rel="noopener" aria-label="Open Go Local"><img src="assets/app-go-local.webp" alt="" width="96" height="96" loading="lazy"><span class="app-name">Go Local</span></a></li></ul>
+      </div>
       <a class="pitch-cta" href="work.html">See my work</a>
     </div>
     <ul class="skills" id="skills" aria-label="What I design"><li><a href="work.html#product">Product Design<span>See work</span></a></li><li><a href="work.html">Branding<span>See work</span></a></li><li><a href="work.html#motion">Motion<span>See work</span></a></li><li><a href="work.html#decks">Deck Design<span>See work</span></a></li><li><a href="work.html#social">Campaigns<span>See work</span></a></li></ul>

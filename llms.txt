@@ -19,6 +19,8 @@
 
 ## Selected work
 ### Product & app design
+- Certa.ai - RiskAgent: Certa.ai RiskAgent evaluation screen with overall risk rating and control assessment by risk domain
+- Certa.ai Dashboard: Certa.ai dashboard with ask-anything prompt, recent records and a workflows table
 - Saagas.ai: Saagas.ai AI art creator web app with filters, controls and a colour picker
 - Persona Dashboard: Persona advertiser dashboard with impressions chart and campaign table
 - Kami Care Mobile App: Kami Care fall detection mobile app: camera setup, alerts and care circle screens
