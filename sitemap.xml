@@ -2,11 +2,11 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
     <loc>https://madebyahila.com/</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-09</lastmod>
   </url>
   <url>
     <loc>https://madebyahila.com/work.html</loc>
-    <lastmod>2026-10-26</lastmod>
+    <lastmod>2026-11-09</lastmod>
     <image:image><image:loc>https://madebyahila.com/assets/ai-risk-agent-evaluation-full.webp</image:loc></image:image>
     <image:image><image:loc>https://madebyahila.com/assets/ai-risk-workflow-dashboard-full.webp</image:loc></image:image>
     <image:image><image:loc>https://madebyahila.com/assets/saagas-ai-art-creator-app-full.webp</image:loc></image:image>

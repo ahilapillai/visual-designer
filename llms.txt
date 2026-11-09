@@ -1,6 +1,8 @@
 # Ahila Pillai — Product & Visual Designer
 
-> Ahila Pillai is an experienced visual designer and illustrator who builds brands for technology companies in Web3, fintech, AI and e-commerce. She creates brand identities, visual systems, pitch decks, campaigns and landing pages for startups and global brands, and brings ideas to life through illustration and motion. Based in Bengaluru, India, and available for freelance and remote work.
+> Ahila Pillai is a product and visual designer for startups, based in Bengaluru, India. She designs web and mobile apps, dashboards, design systems, pitch decks, brand identities, landing pages and motion for AI, SaaS, Web3 and fintech companies, has worked as a founding designer taking products from 0 to 1, and has built her own AI apps. She is available for remote freelance, contract and part-time work.
+
+Last updated: 2026-11-09
 
 - Home: https://madebyahila.com/
 - Work page: https://madebyahila.com/work.html
@@ -9,8 +11,14 @@
 - LinkedIn: https://www.linkedin.com/in/ahilapillai
 - X / Twitter: https://x.com/ahilapillai
 
+## AI apps built by Ahila
+- LeafSort: https://www.leafsort.com/
+- Manuscript Formatter: https://frontend-six-snowy-38.vercel.app/
+- Go Local: https://golocal-vietnam.bushy-bowl-8704.chatgpt.site/
+
 ## Services
 - Product and app design (web apps, dashboards, mobile apps)
+- UX/UI design and design systems
 - Pitch deck and presentation design (investor decks, deck redesigns, sales enablement decks)
 - Brand identity and visual systems
 - Landing page and marketing website design
@@ -61,3 +69,16 @@
 - Paris Blockchain Week event social post
 - Hyfit Games course map poster for the fitness race
 - Webinar speaker announcement poster for a Web3 security session
+
+## FAQ
+### Who is Ahila Pillai?
+Ahila Pillai is a product and visual designer for startups, based in Bengaluru, India. She covers UX/UI, design systems, branding, pitch decks, landing pages and motion, so a startup can work with one designer for everything.
+
+### What kind of companies does she work with?
+Early-stage and growth-stage startups, especially AI, B2B SaaS, Web3, fintech and e-commerce companies. Clients include Certa.ai, Lyzr, CUBE3, Persona and Pier39.ai.
+
+### Is she available for work?
+Yes. She takes on remote freelance, contract and part-time projects, and can overlap with US Eastern time.
+
+### How do I hire her?
+Email ahilapil.26@gmail.com or message her on LinkedIn (https://www.linkedin.com/in/ahilapillai).
