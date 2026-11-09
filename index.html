@@ -385,6 +385,13 @@ footer.sunset .foot-bottom small{color:var(--mute);font-size:13px}
 .apps li:hover .app-name,.apps li:focus-within .app-name{opacity:1}
 .app{overflow:visible}.app img{border-radius:10px}
 @media (prefers-reduced-motion:reduce){.app{transition:none}}
+
+/* hero headline + sprite at 75% */
+.big{font-size:clamp(42px,7.95vw,138px)}
+.hello .me{--px:clamp(3.75px,0.4125vw,6px)}
+.hello-grid{width:min(825px,60vw)}
+@media (max-width:900px){.hello-grid{width:min(560px,80vw)}}
+@media (max-width:640px){.big{font-size:clamp(39px,12.75vw,66px)}.hello-grid{width:100%}}
 </style>
 </head>
 <body>
